@@ -757,7 +757,9 @@ footer p  {
     text-align: left;
     font-weight: 1000;
     margin: 0 1rem;
+
 }
+
 
 @media (max-width: 768px) {
     .img-lateral {
