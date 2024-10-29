@@ -758,3 +758,38 @@ footer p  {
     font-weight: 1000;
     margin: 0 1rem;
 }
+
+@media (max-width: 768px) {
+    .img-lateral {
+        display: none;
+    }
+
+    .img-lateral-2 {
+        display: none;
+    }
+
+    .contenedor-nosotros {
+        flex-direction: column;
+    }
+
+    .nosotros-2 {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .h2-nosotros2 {
+        display: none;
+    }
+
+    .h2-nosotros {
+        display: none;
+    }
+
+    .contenedor-img {
+        width: 100%;
+    }
+
+    .texto-nosotros {
+        width: 100%;
+    }
+}
